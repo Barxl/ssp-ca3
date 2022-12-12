@@ -61,6 +61,25 @@ router.post('/post/json', function(req, res){
     res.redirect('back');
 });
 
+router.post('/post/delete', function (req,res) {
+    function deleteJSON(obj) {
+        console.log(obj);
+        XMLtoJSON('menu.xml', function(err, result){
+            if (err) throw (err);
+
+            delete result.menu.category[obj.section].item[obj.entree];
+
+            JSONtoXML('menu.xml', result, function(err){
+                if (err) console.log(err);
+            });
+        });
+    };
+
+    deleteJSON(req.body);
+
+    res.redirect('back');
+})
+
 server.listen(process.env.PORT || 3000, process.env.IP || "0.0.0.0", function() {
     const addr = server.address();
     console.log("Server listening at", addr.address + ":" + addr.port)
