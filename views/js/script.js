@@ -28,7 +28,7 @@ function calculateBill(idMenuTable) {
 
 // This function either turns on or off the row highlighting for decaf
 // items (depending on the value of bShowDecaf)
-function highlightDecaf(idTable, bShowSE) {
+function highlightSE(idTable, bShowSE) {
     // if bShowDecaf is true, then we're highlighting decaf
     //	meals, otherwise we're unhighlighting them.
     var i = 0;
@@ -65,6 +65,6 @@ window.addEventListener("load", function () {
         document.forms[0].txtBillAmt.value = calculateBill('menuTable');
     });
     document.querySelector("#showDecaf").addEventListener("click", function () {
-        highlightDecaf('menuTable', this.checked);
+        highlightSE('menuTable', this.checked);
     });
 });

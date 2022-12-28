@@ -24,6 +24,10 @@ th {
     font-weight: bold;
 }
 
+td {
+    font-weight: bold;
+}
+
 .selected {
     background-color: #dc3545;
     color: #FFF;
