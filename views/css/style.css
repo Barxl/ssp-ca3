@@ -8,11 +8,12 @@ table {
 
 table, th, td {
     border-collapse: collapse;
-    border: 1px solid #ced4da;
+    border: 3px solid #9ca2a8;
     padding: 0.5rem;
 }
 
 td, th {
+    background-color: rgb(253, 253, 253);
     text-align: left;
 }
 
