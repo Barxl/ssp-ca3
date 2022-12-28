@@ -1,23 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <menu>
   <category name="Xbox">
-  
-  <item SE="true"> 
-      <listing>Xbox Series X</listing>
-      <price>499.99</price>
-  </item>
-  <item>
-    <listing>Controller</listing>
-    <price>54.99</price>
+    <item>
+      <listing>Controller</listing>
+      <price>54.99</price>
     </item>
     <item>
       <listing>Gift Card</listing>
       <price>30.00</price>
     </item>
-    
+    <item>
+      <listing>Xbox series X</listing>
+      <price>499.00</price>
+    </item>
   </category>
   <category name="PlayStaion">
-    <item<item SE="true">
+    <item SE="true">
       <listing>PlayStation 5</listing>
       <price>599.00</price>
     </item>
@@ -31,7 +29,7 @@
     </item>
   </category>
   <category name="Nintendo">
-    <item<item SE="true">
+    <item SE="true">
       <listing>Nintendo Switch</listing>
       <price>399.99</price>
     </item>

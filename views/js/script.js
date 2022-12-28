@@ -28,7 +28,7 @@ function calculateBill(idMenuTable) {
 
 // This function either turns on or off the row highlighting for decaf
 // items (depending on the value of bShowDecaf)
-function highlightDecaf(idTable, bShowDecaf) {
+function highlightDecaf(idTable, bShowSE) {
     // if bShowDecaf is true, then we're highlighting decaf
     //	meals, otherwise we're unhighlighting them.
     var i = 0;
@@ -39,7 +39,7 @@ function highlightDecaf(idTable, bShowDecaf) {
     // "SE" attribute on it.
     for (i = 0; i < aTRs.length; i++) {
         if (aTRs[i].getAttribute('SE') && aTRs[i].getAttribute('SE') == "true") {
-            if (bShowDecaf) {
+            if (bShowSE) {
                 aTRs[i].style.backgroundColor = "lightGreen";
             } else {
                 aTRs[i].style.backgroundColor = "";
