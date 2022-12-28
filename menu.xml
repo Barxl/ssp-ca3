@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <menu>
   <category name="Xbox">
-  <item>
-      <listing>Xobx Series X</listing>
+  
+  <item SE="true"> 
+      <listing>Xbox Series X</listing>
       <price>499.99</price>
   </item>
   <item>
@@ -16,7 +17,7 @@
     
   </category>
   <category name="PlayStaion">
-    <item>
+    <item<item SE="true">
       <listing>PlayStation 5</listing>
       <price>599.00</price>
     </item>
@@ -30,7 +31,7 @@
     </item>
   </category>
   <category name="Nintendo">
-    <item>
+    <item<item SE="true">
       <listing>Nintendo Switch</listing>
       <price>399.99</price>
     </item>
@@ -59,20 +60,6 @@
     <item>
       <listing>El Gato Facecam</listing>
       <price>139.99</price>
-    </item>
-  </category>
-  <category name="Deserts">
-    <item>
-      <listing>Chocolate Brownie</listing>
-      <price>4.50</price>
-    </item>
-    <item>
-      <listing>Vanila Cheescake</listing>
-      <price>4.50</price>
-    </item>
-    <item>
-      <listing>Carrot Cake</listing>
-      <price>5.00</price>
     </item>
   </category>
 </menu>

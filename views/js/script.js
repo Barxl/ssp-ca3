@@ -36,9 +36,9 @@ function highlightDecaf(idTable, bShowDecaf) {
     var oTBODY = oTable.getElementsByTagName('TBODY')[0];
     var aTRs = oTBODY.getElementsByTagName('TR');
     // walk through each of the table rows and see if it has a 
-    // "decaf" attribute on it.
+    // "SE" attribute on it.
     for (i = 0; i < aTRs.length; i++) {
-        if (aTRs[i].getAttribute('decaf') && aTRs[i].getAttribute('decaf') == "true") {
+        if (aTRs[i].getAttribute('SE') && aTRs[i].getAttribute('SE') == "true") {
             if (bShowDecaf) {
                 aTRs[i].style.backgroundColor = "lightGreen";
             } else {
