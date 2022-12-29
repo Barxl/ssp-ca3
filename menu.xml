@@ -13,6 +13,10 @@
       <listing>Xbox series X</listing>
       <price>499.00</price>
     </item>
+    <item>
+      <listing>Elite controller</listing>
+      <price>3.50</price>
+    </item>
   </category>
   <category name="PlayStaion">
     <item SE="true">
