@@ -1,37 +1,44 @@
 body {
-    margin-bottom: 60px;
+color: black;
 }
 
 table {
-    width:100%;
+    width: 100%;
 }
 
-table, th, td {
+table,
+th,
+td {
     border-collapse: collapse;
     border: 3px solid #9ca2a8;
     padding: 0.5rem;
 }
 
-td, th {
+td,
+th {
     background-color: rgb(253, 253, 253);
     text-align: left;
 }
 
-td:nth-child(1), td:nth-child(3){
+td:nth-child(1),
+td:nth-child(3) {
     text-align: center;
 }
 
 th {
     font-weight: bold;
+    background-color: rgb(233, 247, 249);
 }
 
 td {
     font-weight: bold;
+    background-color: rgb(233, 247, 249);
 }
 
 .selected {
     background-color: #dc3545;
 }
+
 input:invalid {
     box-shadow: 0 0 5px 1px red;
-  }
+}
